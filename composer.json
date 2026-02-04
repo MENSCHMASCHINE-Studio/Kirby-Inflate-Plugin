@@ -1,0 +1,17 @@
+{
+    "name": "MMS/inflate",
+    "description": "Check how your page handles large amounts of content by inflating collections.",
+    "homepage:": "https://github.com/MENSCHMASCHINE-Studio/kirby-inflate",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MENSCHMASCHINE Studio",
+            "email": "benedikt@menschmaschine.studio"
+        }
+    ],
+      "support": {
+        "docs": "https://github.com/MENSCHMASCHINE-Studio/kirby-inflate/blob/main/README.md",
+        "source": "https://github.com/MENSCHMASCHINE-Studio/kirby-inflate"
+      }
+}
