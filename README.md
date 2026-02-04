@@ -14,19 +14,13 @@ Copy this repository into your pages plugin folder `site/plugins/inflate/`
 
 ```php
 // Inflates the children collection to 500 items
-<?php foreach ($page->children()->inflate(500) as $article): ?>
-    <a href="<?=$article->url()?>"><?=$article->title()?></a>
-<?php endforeach;?>
+$page->children()->inflate(500)
 
 // Shuffle to prevent repetitive layouts
-<?php foreach ($page->children()->inflate(500, true) as $article): ?>
-    <a href="<?=$article->url()?>"><?=$article->title()?></a>
-<?php endforeach;?>
+$page->children()->inflate(500, true)
 
 // With no arguments provided, inflate() will inflate to 50 items
-<?php foreach ($page->children()->inflate() as $article): ?>
-    <a href="<?=$article->url()?>"><?=$article->title()?></a>
-<?php endforeach;?>
+$page->children()->inflate()
 
 ```
 
