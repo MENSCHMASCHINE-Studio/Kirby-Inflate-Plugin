@@ -6,10 +6,6 @@ This is helpful  to give a better indication of your pages layout once more cont
 
 It works by adding a collections to itself until the desired amount is reached.
 
-## Installation
-
-Copy this repository into your pages plugin folder `site/plugins/inflate/`
-
 ## Usage
 
 ```php
@@ -25,6 +21,12 @@ $page->children()->inflate()
 ```
 
 If the collection is as large or larger than the requested size, it will not be modified or shrunken down.
+
+
+## Installation
+
+Copy this repository into your pages plugin folder `site/plugins/inflate/`
+
 
 
 
