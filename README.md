@@ -25,7 +25,7 @@ If the collection is as large or larger than the requested size, it will not be 
 
 ## Installation
 
-Copy this repository into your pages plugin folder `site/plugins/inflate/`
+Copy this repository into your pages plugin folder `site/plugins/inflate/`. This plugin is compatible with Kirby version ^3.4.0 and newer.
 
 
 ## Debug / Production
