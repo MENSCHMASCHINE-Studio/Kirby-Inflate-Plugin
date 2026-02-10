@@ -1,7 +1,7 @@
 <?php
 Kirby::plugin('MMS/inflate', [
     'collectionMethods' => [
-        'inflate' => function ($size, $shuffle = false) {
+        'inflate' => function ($size = 50, $shuffle = false) {
             // Only run in debug mode
             if(! option('debug') && !option('MMS.inflate.inProduction', false)){
                 return $this;
